@@ -260,6 +260,10 @@ button:focus,
   display: inline-block;
 }
 
+#contact-form {
+  padding-top: 40px;
+}
+
 @keyframes rotateLogo {
   0% {
     transform: rotate(0deg);

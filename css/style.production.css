@@ -321,6 +321,10 @@ button:focus {
   display: inline-block;
 }
 
+#contact-form {
+  padding-top: 40px;
+}
+
 @-webkit-keyframes rotateLogo {
   0% {
     -webkit-transform: rotate(0deg);

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2018 (64 Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="4.064mm" height="4.064mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 406.4 406.4"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="722" font-variant="normal" style="fill-rule:nonzero" font-weight="700">
+	<font-face 
+		font-family="Futura Md BT">
+		<font-face-src>
+			<font-face-name name="Futura Md BT Bold"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="N" horiz-adv-x="851" d="M76.0108 0l0 715.04 188.032 0 270.296 -367.655c5.1752,-7.54717 13.6927,-22.7493 25.4447,-45.3908 12.0755,-22.5337 25.0135,-49.4879 39.3531,-80.8625 -3.77358,29.6496 -6.68464,56.0647 -8.51752,79.2453 -1.83288,23.0728 -2.5876,43.6658 -2.5876,61.4555l0 353.208 186.954 0 0 -715.04 -186.954 0 -270.189 369.164c-5.71429,7.54717 -14.3396,22.6415 -26.1995,45.1752 -11.9677,22.6415 -24.7978,49.3801 -38.814,80 3.8814,-29.973 6.68464,-56.496 8.51752,-79.6765 1.83288,-23.1806 2.69542,-43.6658 2.69542,-61.4555l0 -353.208 -188.032 0z"/>
+   <glyph unicode="W" horiz-adv-x="970" d="M563.022 715.019l89.8294 -340.013c4.15424,-15.1508 8.16187,-31.1813 11.6319,-47.8471 3.66551,-16.4704 7.33102,-35.6776 11.3386,-57.182 4.83847,25.5119 8.99272,46.332 12.365,62.8513 3.47002,16.5192 6.79341,30.497 9.97019,42.1778l84.0135 340.013 196.813 0 -202.141 -715.019 -180.685 0 -88.3144 305.313c-3.3234,10.7033 -8.69948,31.67 -16.1771,62.9979 -3.17678,14.0267 -5.81594,24.8766 -7.81975,32.6963 -1.51508,-6.84229 -3.861,-16.5192 -6.84229,-28.8353 -7.52651,-31.67 -13.1958,-53.8586 -17.008,-66.8589l-86.9948 -305.313 -181.174 0 -201.847 715.019 197.009 0 82.0097 -341.87c4.00762,-17.6433 7.81975,-35.14 11.4853,-52.8322 3.861,-17.4967 7.33102,-35.6288 10.5078,-54.1518 3.03015,13.6846 6.15806,28.0045 9.53033,43.0087 3.47002,15.0042 8.6506,36.313 15.4929,63.9754l89.8294 341.87 157.177 0z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Futura Md BT";font-variant:normal;font-weight:bold;src:url("#FontID0") format(svg)}
+    .str0 {stroke:#947119;stroke-width:10;stroke-miterlimit:22.9256}
+    .fil0 {fill:#FEFEFE}
+    .fil3 {fill:#85493A}
+    .fil1 {fill:#ECD6A9}
+    .fil2 {fill:#FAEFDA}
+    .fnt1 {font-weight:bold;font-size:92.75px;font-family:'Futura Md BT'}
+    .fnt0 {font-weight:bold;font-size:204.61px;font-family:'Futura Md BT'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Ebene_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0 str0" x="31.57" y="36.52" width="340.65" height="340.65"/>
+  <g id="_2104132450880">
+   <rect class="fil1" x="49.43" y="54.38" width="304.92" height="304.92"/>
+   <text x="111.24" y="288.57"  class="fil2 fnt0">W</text>
+   <text x="109.8" y="308.38"  class="fil2 fnt1">N</text>
+   <text x="109.8" y="308.38"  class="fil3 fnt1">N</text>
+  </g>
+ </g>
+</svg>

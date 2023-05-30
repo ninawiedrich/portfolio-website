@@ -20,10 +20,24 @@ Fourth (Light grayish cyan): #c7dede
   box-sizing: border-box;
 }
 
+:root {
+  --text-color: #000;
+  --gold: #947119;
+  --monarch: #6a2629;
+  --olive: #2f4f4f;
+  --light-grayish-cyan: #c7dede;
+  --white: #fff;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+  --font-size-base: 16px;
+  --font-size-h1: 30px;
+  --font-size-h2: 20px;
+}
+
 body {
   font-family: "Roboto Mono", monospace;
-  font-size: 16px;
-  font-weight: 400;
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-regular);
   line-height: 1.6;
   margin-left: 20px;
   margin-right: 20px;
@@ -31,73 +45,57 @@ body {
 
 .heading-font {
   font-family: "Rubik", sans-serif;
-  color: #947119;
+  color: var(--gold);
 }
 
 .heading-font--black {
-  color: #000;
+  color: var(--text-color);
 }
 
 h1 {
-  font-size: 30px;
-  font-weight: 500;
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-medium);
 }
 
 h2 {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-medium);
 }
 
 a {
-  color: #947119;
-  font-weight: 500;
+  color: var(--gold);
+  font-weight: var(--font-weight-medium);
 }
 
 a:visited {
-  color: #6a2629;
+  color: var(--monarch);
 }
 
 a:hover {
-  color: #947119;
+  color: var(--gold);
 }
 
 a:active {
-  color: #2f4f4f;
+  color: var(--olive);
 }
 
 .link__secondary {
-  color: #6a2629;
+  color: var(--monarch);
 }
 
 .link__secondary:hover {
-  color: #000;
+  color: var(--text-color);
 }
 
-button {
-  border: none;
-  display: inline-block;
-  font-family: inherit;
-  font-size: 16px;
-  text-decoration: none;
-  background-color: #947119;
-  color: #fff;
-  padding: 10px;
-  border-radius: 3px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-  border-right: 2px solid rgba(0, 0, 0, 0.3);
-  -webkit-transition: opacity 0.2s;
-  -o-transition: opacity 0.2s;
-  transition: opacity 0.2s;
-}
-
+button,
 .button {
   border: none;
   display: inline-block;
   font-family: inherit;
-  font-size: 16px;
+  font-size: var(--font-size-base);
   text-decoration: none;
-  background-color: #947119;
-  color: #fff;
+  background-color: var(--gold);
+  color: var(--white);
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
@@ -107,46 +105,21 @@ button {
   transition: opacity 0.2s;
 }
 
-button:hover {
-  color: #fff;
-  cursor: pointer;
-  opacity: 0.7;
-}
-
-button:focus {
-  color: #fff;
-  cursor: pointer;
-  opacity: 0.7;
-}
-
-.button__secondary:hover {
-  color: #fff;
-  cursor: pointer;
-  opacity: 0.7;
-}
-
-.button__secondary:focus {
-  color: #fff;
-  cursor: pointer;
-  opacity: 0.7;
-}
-
-.button:hover {
-  color: #fff;
-  cursor: pointer;
-  opacity: 0.7;
-}
-
+button:hover,
+button:focus,
+.button__secondary:hover,
+.button__secondary:focus,
+.button:hover,
 .button:focus {
-  color: #fff;
+  color: var(--white);
   cursor: pointer;
   opacity: 0.7;
 }
 
 .button__secondary {
-  background-color: #fff;
-  color: #000;
-  border: 2px solid #947119;
+  background-color: var(--white);
+  color: var(--text-color);
+  border: 2px solid var(--gold);
   border-radius: 3px;
   margin: 20px;
 }
@@ -157,7 +130,7 @@ button:focus {
   max-width: 300px;
   margin-right: 40px;
   margin-bottom: 80px;
-  border: 2px solid #947119;
+  border: 2px solid var(--gold);
 }
 
 .page-footer {
@@ -185,7 +158,7 @@ button:focus {
   width: 100%;
   height: 70px;
   padding: 20px;
-  border-bottom: 2px solid #947119;
+  border-bottom: 2px solid var(--gold);
   margin-bottom: 150px;
 }
 
@@ -227,7 +200,7 @@ button:focus {
   margin-left: 15px;
 }
 
-#contact-form {
+#register-form {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 20px 1fr;
@@ -237,7 +210,7 @@ button:focus {
   margin: 0 auto;
 }
 
-#contact-form {
+#register-form {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 20px 3fr;
@@ -247,18 +220,18 @@ button:focus {
   margin: 0 auto;
 }
 
-#contact-form input,
-#contact-form textarea {
+#register-form input,
+#register-form textarea {
   width: 100%;
 }
 
-#contact-form textarea {
+#register-form textarea {
   -ms-grid-column-span: 2;
   grid-column: span 2;
   height: 100px;
 }
 
-#contact-form input[type="submit"] {
+#register-form input[type="submit"] {
   -ms-grid-column-span: 2;
   grid-column: span 2;
   margin: 0;
@@ -284,7 +257,7 @@ button:focus {
   }
 
   .project__item {
-    background-color: #c7dede;
+    background-color: var(--light-grayish-cyan);
     width: auto;
     min-height: auto;
     margin: 0;
@@ -352,7 +325,7 @@ button:focus {
 .heading-font__about {
   -webkit-animation: fadeIn 3s 1 forwards;
   animation: fadeIn 3s 1 forwards;
-  color: #fff;
+  color: var(--white);
 }
 
 .button {
@@ -362,8 +335,18 @@ button:focus {
   display: inline-block;
 }
 
-#contact-form {
+#register-form {
   padding-top: 40px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.error-message {
+  white-space: nowrap;
+  color: rgba(255, 0, 0, 0.7);
 }
 
 @-webkit-keyframes rotateLogo {
@@ -397,7 +380,7 @@ button:focus {
 
   100% {
     opacity: 1;
-    color: #947119;
+    color: var(--gold);
   }
 }
 
@@ -408,7 +391,7 @@ button:focus {
 
   100% {
     opacity: 1;
-    color: #947119;
+    color: var(--gold);
   }
 }
 

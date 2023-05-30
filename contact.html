@@ -73,29 +73,47 @@
       <a href="mailto:nina.wiedrich@gmail.com">Email: nina.wiedrich@gmail.com</a
       ><br />
       <a href="mailto:nina.wiedrich@gmail.com">Contact me</a>
-      <form action="/submit-form" method="post" id="contact-form">
+      <form action="/submit-form" method="post" id="register-form">
         <label for="first-name" class="standard-label">First Name:</label>
-        <input type="text" id="first-name" name="first-name" required />
+        <div class="input-wrapper">
+          <input type="text" id="first-name" name="first-name" required />
+        </div>
 
         <label for="last-name" class="standard-label">Last Name:</label>
-        <input type="text" id="last-name" name="last-name" required />
+        <div class="input-wrapper">
+          <input type="text" id="last-name" name="last-name" required />
+        </div>
 
-        <label for="email" class="standard-label">Email: </label>
-        <input type="email" id="email" name="email" required />
+        <label for="email">E-mail</label>
+        <div class="input-wrapper">
+          <input type="email" id="email" name="email" />
+        </div>
 
         <label for="telephone" class="standard-label">Telephone: </label>
-        <input type="tel" id="telephone" name="telephone" />
+        <div class="input-wrapper">
+          <input
+            type="tel"
+            id="telephone"
+            name="telephone"
+            aria-describedby="error-message"
+          />
+          <!-- Error message will be inserted here -->
+        </div>
 
         <label for="message" class="standard-label">Message: </label>
-        <textarea
-          required
-          maxlength="240"
-          id="message"
-          name="message"
-        ></textarea>
+        <div class="input-wrapper">
+          <textarea
+            required
+            maxlength="240"
+            id="message"
+            name="message"
+          ></textarea>
+        </div>
+
         <input type="submit" class="button__secondary" value="Send message" />
       </form>
     </main>
+    <script src="js/script.js"></script>
     <script src="js/tota11y.min.js"></script>
   </body>
 </html>

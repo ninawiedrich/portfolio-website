@@ -177,7 +177,7 @@ button:focus,
   margin-left: 15px;
 }
 
-#contact-form {
+#register-form {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
@@ -185,7 +185,7 @@ button:focus,
   margin: 0 auto;
 }
 
-#contact-form {
+#register-form {
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-gap: 20px;
@@ -193,17 +193,17 @@ button:focus,
   margin: 0 auto;
 }
 
-#contact-form input,
-#contact-form textarea {
+#register-form input,
+#register-form textarea {
   width: 100%;
 }
 
-#contact-form textarea {
+#register-form textarea {
   grid-column: span 2;
   height: 100px;
 }
 
-#contact-form input[type="submit"] {
+#register-form input[type="submit"] {
   grid-column: span 2;
   margin: 0;
   margin-bottom: 60px;
@@ -293,8 +293,13 @@ button:focus,
   display: inline-block;
 }
 
-#contact-form {
+#register-form {
   padding-top: 40px;
+}
+
+.error-message {
+  display: block;
+  color: rgba(255, 0, 0, 0.7);
 }
 
 @keyframes rotateLogo {
